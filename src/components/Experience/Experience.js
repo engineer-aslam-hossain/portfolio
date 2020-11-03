@@ -45,9 +45,13 @@ const Experience = () => {
               data-aos={windowWidth > 1000 ? 'fade-right' : 'fade-up'}
               data-aos-duration='700'
               data-aos-delay='300'>
-              <p className='text-right mt-4 firstP'>March 2017 to present</p>
-              <p className='text-right mt-4 secondP'>March 2017 to present</p>
-              <p className='text-right mt-4 thirdP'>March 2017 to present</p>
+              <p className='text-right mt-4 firstP'>
+                July 2020 to December 2020
+              </p>
+              <p className='text-right mt-4 secondP'>March 2017 to Jun 2017</p>
+              <p className='text-right mt-4 thirdP'>
+                August 2017 to November 2017
+              </p>
             </div>
             <div className='line col'></div>
             <div
@@ -81,8 +85,8 @@ const Experience = () => {
               data-aos-duration='700'
               data-aos-delay='300'>
               <p className='text-right mt-4 firstP'>May 2018 to present</p>
-              <p className='text-right mt-4 secondP'>March 2017 to present</p>
-              <p className='text-right mt-4 thirdP'>March 2017 to present</p>
+              <p className='text-right mt-4 secondP'>March 2013 to 2017</p>
+              <p className='text-right mt-4 thirdP'>2008 to 2012/13</p>
             </div>
             <div className='line col'></div>
             <div

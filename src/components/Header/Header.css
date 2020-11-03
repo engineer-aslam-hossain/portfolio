@@ -52,13 +52,18 @@ a.resume:focus {
   outline: none;
 }
 
-a.resume:hover {
+.navbar-nav > a.resume:hover {
   background-position: right center;
+  color: white !important;
 }
 
 a:hover {
   text-decoration: none !important;
 }
+.navbar-nav > a:hover {
+  color: #ffff3f !important;
+}
 .navbar-nav > a.active {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ffff3f;
+  color: #ffff3f !important;
 }
