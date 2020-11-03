@@ -1,9 +1,13 @@
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import creative from '../images/creative.jpg';
+import doctor from '../images/doctor.jpg';
+import volunteer from '../images/volunteer.jpg';
+import crwn from '../images/crwn.jpg';
 const fakeProjectData = [
   {
     id: 1,
-    img: 'https://imgur.com/2F7cEEw.png',
+    img: creative,
     url: 'https://creative-agency-bd3fb.web.app/',
     client: 'https://github.com/engineer-aslam-hossain/creative-agency-client',
     name: 'Creative Agency',
@@ -22,7 +26,7 @@ const fakeProjectData = [
   },
   {
     id: 2,
-    img: 'https://imgur.com/bYtMbg5.png',
+    img: doctor,
     url: 'https://doctors-portal-1c3c1.web.app/',
     client: 'https://github.com/engineer-aslam-hossain/doctors-portal-client',
     name: 'Doctors Portal',
@@ -41,7 +45,7 @@ const fakeProjectData = [
   },
   {
     id: 3,
-    img: 'https://imgur.com/PUg8svv.png',
+    img: volunteer,
     url: 'https://volunteer-network-b9cfa.web.app/',
     name: 'Volunteer Network',
     client:
@@ -61,7 +65,7 @@ const fakeProjectData = [
   },
   {
     id: 4,
-    img: 'https://imgur.com/dTdAf01.png',
+    img: crwn,
     url: 'https://crwn-clothig.herokuapp.com/',
     client: 'https://github.com/engineer-aslam-hossain/CRWN_Clothing',
     name: 'Crown Clothing',

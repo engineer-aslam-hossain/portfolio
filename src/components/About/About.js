@@ -31,17 +31,6 @@ const About = () => {
               <div className='totalInfo'>
                 <button className='allArticle'>Hire me</button>
               </div>
-
-              {/* <div className='totalInfo'>
-                <FontAwesomeIcon icon={faBook} />
-                <h4>40</h4>
-                <span>Total Project</span>
-              </div>
-              <div className='totalInfo'>
-                <FontAwesomeIcon icon={faUserFriends} />
-                <h4>12300</h4>
-                <span>Total Users</span>
-              </div> */}
             </div>
           </div>
           <div

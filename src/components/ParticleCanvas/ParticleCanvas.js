@@ -3,13 +3,15 @@ import Particles from 'react-particles-js';
 
 const ParticleCanvas = ({ innerHeight }) => {
   const windowSize = window.innerWidth;
-  const setValue = windowSize > 576 ? 50 : 20;
+  const setValue = windowSize > 576 ? 70 : 30;
+  const setWidth = windowSize > 992 ? '98%' : '95%';
+  const setLeft = windowSize > 992 ? '.8rem' : '.5rem';
   return (
     <Particles
       canvasClassName='example position-absolute left-0 right-0 top-0'
       //   height={innerHeight}
-      width='95%'
-      style={{ left: '2rem', right: '0' }}
+      width={setWidth}
+      style={{ left: setLeft }}
       params={{
         particles: {
           number: {
