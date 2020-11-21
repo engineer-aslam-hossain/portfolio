@@ -4,6 +4,7 @@
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
   transition: 0.6s ease !important;
 }
+
 .p-4.card:hover {
   box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.08) !important;
   transform: scale(1.1) !important;
@@ -16,4 +17,13 @@
 .card-text {
   font-size: 14px;
   color: #777777;
+}
+.card-deck a {
+  width: 33%;
+}
+
+@media (max-width: 768px) {
+  .card-deck a {
+    width: 100%;
+  }
 }

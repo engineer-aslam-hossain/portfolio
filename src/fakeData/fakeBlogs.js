@@ -1,27 +1,33 @@
-import blog1 from '../images/blog-1.png';
-import blog2 from '../images/blog-2.png';
-import blog3 from '../images/blog-3.png';
+import blog1 from '../images/javaScript.jpg';
+import blog2 from '../images/react.png';
+import blog3 from '../images/js1.jpg';
 const fakeBlogs = [
   {
     id: 1,
     img: blog1,
-    title: 'How Javascript Hoisting Work',
+    title: 'Important Topics of JavaScript You Must Know :- Part-1',
+    url:
+      'https://aslamhossain-dev.medium.com/important-topics-of-javascript-you-must-know-part-1-8f7a1373e4a',
     details:
-      'Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution...',
+      'what the String.charAt() does is returns a new string consisting of the single value what we pass through this methods.It only gives us only one character of the whole string....',
   },
   {
     id: 2,
     img: blog2,
-    title: 'React useContext In Easy Way',
+    url:
+      'https://aslamhossain-dev.medium.com/10-important-topics-in-react-e2327a15678c',
+    title: '10 Important Topics in React',
     details:
-      'If you are a React developer, and haven’t learned about React hooks yet, it is the perfect time to start learning now...',
+      'like other framework as like Angular or Ember React is not a framework, framework comes with lot’s of built in rules and regulation you cannot go beyond them but using react for front end you have lot’s of control of your application.React is all about flexibility, you can use much more third party tools while building react application....',
   },
   {
     id: 3,
     img: blog3,
-    title: 'How Context Made life easier',
+    title: 'Important Topics of JavaScript You Must Know :- Part-2',
+    url:
+      'https://aslamhossain-dev.medium.com/important-topics-of-javascript-you-must-know-part-1-9cab58ff307c',
     details:
-      'Context is about sharing data to many components. The reason we need the Context API is that its cumbersome to pass data...',
+      'But you can say non primitive data are not 2 types only one types because functions are also objects There no Array type, no other type in javascript....',
   },
 ];
 

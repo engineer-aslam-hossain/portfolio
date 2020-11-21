@@ -82,7 +82,7 @@ const HeaderMain = () => {
                 href='https://github.com/engineer-aslam-hossain'>
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
-              <a target='blank' href='https://medium.com/@aslamhossain.dev'>
+              <a target='blank' href='https://aslamhossain-dev.medium.com/'>
                 <FontAwesomeIcon icon={faMedium} />
               </a>
               <a
