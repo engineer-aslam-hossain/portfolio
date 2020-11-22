@@ -54,8 +54,9 @@ const HeaderMain = () => {
               />
             </h5>
             <p>
-              Currently I'm working with M E R N stack. 40+ Project Completed
-              and have well knowledged in React, MongoDB, Express, Firebase.
+              Currently, I'm working with the M E R N stack. 40+ Project
+              Completed and have well knowledged in React, MongoDB, Express,
+              Firebase.
             </p>
             <div className='personalInfo'>
               <p>

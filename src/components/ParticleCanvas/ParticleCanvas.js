@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 
 const ParticleCanvas = ({ innerHeight }) => {
   const windowSize = window.innerWidth;
-  const setValue = windowSize > 576 ? 40 : 20;
+  const setValue = windowSize > 576 ? 40 : 30;
   const setWidth = windowSize > 992 ? '98%' : '95%';
   const setLeft = windowSize > 992 ? '.8rem' : '.5rem';
   return (

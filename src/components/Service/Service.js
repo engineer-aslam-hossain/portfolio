@@ -9,9 +9,7 @@ const Service = () => {
         <div className='row align-items center justify-content-center'>
           <div className='serviceHeader d-flex align-items-center justify-content-center flex-column'>
             <h2>offering to my clients</h2>
-            <p>
-              I Do Front-end or Full stack Web-development with High Accuracy
-            </p>
+            <p>I build every website for humans, I build them with accuracy.</p>
           </div>
           <div className='row serviceRow'>
             {fakeService.map(service => (

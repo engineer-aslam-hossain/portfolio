@@ -10,8 +10,8 @@ const Blog = () => {
         <div className='blogHead d-flex flex-column align-items-center mb-5'>
           <h3>Some Of my Article</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
-            excepturi?
+            Though I'm a learner, sometimes I try to write something that I know
+            better.
           </p>
         </div>
         <CardDeck>

@@ -13,11 +13,10 @@ const About = () => {
             data-aos-delay='300'>
             <h3>About Myself</h3>
             <p>
-              Pulling hair when code doesn't work is a common things to do...
-              I'm a technology explorer and learner. I love to learn new
-              technology and explore them . Becoming a Full-Stack software
-              engineer is my goal. I'm a simply simple person with lots of
-              interests.
+              Pulling hair when code doesn't work is a common thing to do. I'm a
+              technology explorer and learner. I love to learn new technology
+              and explore it. Becoming a Full-Stack software engineer is my
+              goal. I'm a simply simple person with lots of interests.
             </p>
             <div className='d-flex aboutBtn'>
               <div className='totalInfo pt-3 mr-3'>
