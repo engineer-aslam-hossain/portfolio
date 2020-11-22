@@ -9,7 +9,7 @@ const fakeBlogs = [
     url:
       'https://aslamhossain-dev.medium.com/important-topics-of-javascript-you-must-know-part-1-8f7a1373e4a',
     details:
-      'what the String.charAt() does is returns a new string consisting of the single value what we pass through this methods.It only gives us only one character of the whole string....',
+      'What the String.charAt() does is returns a new string consisting of the single value that we pass through these methods. It only gives us only one character of the whole string...',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const fakeBlogs = [
       'https://aslamhossain-dev.medium.com/10-important-topics-in-react-e2327a15678c',
     title: '10 Important Topics in React',
     details:
-      'like other framework as like Angular or Ember React is not a framework, framework comes with lot’s of built in rules and regulation you cannot go beyond them but using react for front end you have lot’s of control of your application.React is all about flexibility, you can use much more third party tools while building react application....',
+      'like another framework like Angular or Ember, React is not a framework, framework comes with lot’s of built in rules and regulation you cannot go beyond them but using react for the front end you have lots of control of your application. React is all about flexibility, you can use much more third party tools while building a react application...',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const fakeBlogs = [
     url:
       'https://aslamhossain-dev.medium.com/important-topics-of-javascript-you-must-know-part-1-9cab58ff307c',
     details:
-      'But you can say non primitive data are not 2 types only one types because functions are also objects There no Array type, no other type in javascript....',
+      'Non-Primitive Data Type has 2 types those are:-  (Object,Functions) But you can say non-primitive data are not 2 types only one types because functions are also objects There no Array type, no other type in javascript rather than primitive type everything is objects in javascript that’s sounds wired but that is true.',
   },
 ];
 
