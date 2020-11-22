@@ -11,8 +11,8 @@ const Project = () => {
         <div className='projectHeading d-flex flex-column align-items-center'>
           <h2>My latest featured project</h2>
           <p>
-            Recently I created some fullstack project and some other react
-            project
+            Recently I created some Full-stack project and some other React
+            project.
           </p>
         </div>
         <div className='row'>

@@ -27,7 +27,7 @@ const fakeBlogs = [
     url:
       'https://aslamhossain-dev.medium.com/important-topics-of-javascript-you-must-know-part-1-9cab58ff307c',
     details:
-      'Non-Primitive Data Type has 2 types those are:-  (Object,Functions) But you can say non-primitive data are not 2 types only one types because functions are also objects There no Array type, no other type in javascript rather than primitive type everything is objects in javascript that’s sounds wired but that is true.',
+      'Non-Primitive Data Type has 2 types those are:-  (Object,Functions) But you can say non-primitive data are not 2 types only one types because functions are also objects...',
   },
 ];
 
