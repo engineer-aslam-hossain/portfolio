@@ -12,7 +12,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './HeaderMain.css';
-import logo from '../../images/aslam.png';
+import logo from '../../images/aslam.jpg';
 import ParticleCanvas from '../ParticleCanvas/ParticleCanvas';
 import Typical from 'react-typical';
 
@@ -22,16 +22,16 @@ const HeaderMain = () => {
     <section className='header-main' id='home'>
       <ParticleCanvas />
       <div className='container headerMainContainer'>
-        <div className='row headerMainRow'>
+        <div className='row headerMainRow justify-content-around'>
           <div
-            className='col-md-8 myImg'
+            className='col-md-6 myImg d-flex justify-content-center align-items-center'
             data-aos={windowSize > 1000 ? 'zoom-in' : 'fade-up'}
             data-aos-duration='500'
             data-aos-delay='700'>
             <img src={logo} alt='' className='img-fluid' />
           </div>
           <div
-            className='col-md-4 myInfo d-flex flex-column justify-content-center'
+            className='col-md-5 myInfo d-flex flex-column justify-content-center'
             data-aos='fade-up'
             data-aos-duration='500'
             data-aos-delay='700'>
