@@ -21,12 +21,12 @@
   /* text-align: justify; */
 }
 .singleService:hover svg.svg-inline--fa.fa-laptop-code.fa-w-20,
-.singleService:hover svg.svg-inline--fa.fa-desktop.fa-w-18,
+.singleService:hover svg.svg-inline--fa.fa-mobile-alt.fa-w-10,
 .singleService:hover svg.svg-inline--fa.fa-laptop-house.fa-w-20 {
   color: #766dff;
 }
 svg.svg-inline--fa.fa-laptop-code.fa-w-20,
-svg.svg-inline--fa.fa-desktop.fa-w-18,
+svg.svg-inline--fa.fa-mobile-alt.fa-w-10,
 svg.svg-inline--fa.fa-laptop-house.fa-w-20 {
   font-size: 3rem;
   margin-bottom: 1rem;

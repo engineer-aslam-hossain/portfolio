@@ -44,7 +44,7 @@ const HeaderMain = () => {
               I'm a
               <Typical
                 steps={[
-                  " Front end developer",
+                  " Flutter Developer",
                   1000,
                   " Full Stack Developer",
                   1000,
@@ -56,14 +56,12 @@ const HeaderMain = () => {
               />
             </h5>
             <p>
-              Currently, I'm working In a Software Company Named Quixx Project.
-              I'm a M E R N stack Developer. 40+ Project Completed and have well
-              knowledged in React, Next Js,React Native, MongoDB, Express Js.
+            My main area of expertise is the development of applications of varying complexity using JavaScript or Flutter. Being a Fullstack developer, I worked with a lot of different Backend or Frontend technologies. Plus, I possess a deep understanding of REST API technology.
             </p>
             <div className="personalInfo">
               <p>
                 <FontAwesomeIcon icon={faPhoneAlt} />
-                (+880)130-387-4241
+                (+880)178-349-0941
               </p>
               <p>
                 <FontAwesomeIcon icon={faEnvelope} />

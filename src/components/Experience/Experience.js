@@ -47,12 +47,12 @@ const Experience = () => {
               data-aos-duration="700"
               data-aos-delay="300"
             >
-              <p className="text-right mt-4 firstP">December 2020 to Present</p>
+              <p className="text-right mt-4 firstP">April 2021 to Present</p>
               <p className="text-right mt-4 secondP">
-                July 2020 to November 2020
+                December 2020 to April 2021
               </p>
               <p className="text-right mt-4 thirdP">
-                August 2017 to November 2017
+                July 2020 to November 2020
               </p>
             </div>
             <div className="line col"></div>
@@ -62,20 +62,21 @@ const Experience = () => {
               data-aos-duration="700"
               data-aos-delay="300"
             >
-              <div className="firstExp">
-                <h4>Quixx Project</h4>
-                <p>Joined As a Front End Developer and working happily</p>
+               <div className="firstExp">
+                <h4>SELISE</h4>
+                <p>SELISE is a Swiss owned Software Engineering and Business Consulting company, Joined As a Software Engineer.</p>
               </div>
               <div className="secondExp">
-                <h4>Training</h4>
-                <p>
-                  Complete Web Development With Jhankar Mahbub <br />
-                </p>
+                <h4>Quixx Project</h4>
+                <p>Country's First AI-Powered Last-Mile Delivery Management Software Solution. I Was Joined As a Front End Developer.</p>
               </div>
               <div className="thirdExp">
                 <h4>Training</h4>
-                <p>LICT Project , ICT-Division-Government-of-Bangladesh.</p>
+                <p>
+                  Complete Web Development With Jhankar Mahbub. I got more knowledge on HTML, CSS, JavaScript, ES6, bootstrap, React, charting, Node, Express, API, Mongodb
+                </p>
               </div>
+             
             </div>
           </div>
           <div className="educationDetails  row">
@@ -85,7 +86,7 @@ const Experience = () => {
               data-aos-duration="700"
               data-aos-delay="300"
             >
-              <p className="text-right mt-4 firstP">May 2018 to present</p>
+              <p className="text-right mt-4 firstP">May 2018 to June 2021</p>
               <p className="text-right mt-4 secondP">March 2013 to 2017</p>
               <p className="text-right mt-4 thirdP">2008 to 2012/13</p>
             </div>
@@ -100,21 +101,21 @@ const Experience = () => {
                 <h4>Bsc In CSE</h4>
                 <p>
                   Daffodil International University <br />
-                  Dhaka, Bangladesh
+                  I have completed my bachelor's in CSE from DIU.
                 </p>
               </div>
               <div className="secondExp">
                 <h4>Diploma In CT</h4>
                 <p>
                   Mymensingh Govt. Polytechnic <br />
-                  Mymensingh, Dhaka, Bangladesh
+                  I got my college degree from this college.
                 </p>
               </div>
               <div className="thirdExp">
                 <h4>SSC</h4>
                 <p>
                   Barachowna High School <br />
-                  Barachowna, Sakhipur, Tangail
+                  I finished my school level at this school.
                 </p>
               </div>
             </div>

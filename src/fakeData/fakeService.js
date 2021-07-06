@@ -1,6 +1,6 @@
 import {
   faLaptopCode,
-  faDesktop,
+  faMobileAlt,
   faLaptopHouse,
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,22 +10,22 @@ const fakeService = [
     icon: faLaptopCode,
     name: 'Front End Web App',
     details:
-      'I can make a Fully responsive front end and static website with react. React web app performance is really good.',
+      'Within 3+ years of experience, I have worked with Enterprise level clients and Startups across multiple domains. I have extensive experience in Flutter, React, React Native, NextJs, VueJs,MongoDB, Node',
   },
 
   {
     id: 2,
-    icon: faDesktop,
-    name: 'E-commerce Web App',
+    icon: faMobileAlt,
+    name: 'Android or ioS App',
     details:
-      'I do build an e-commerce web application with React, MongoDB, Redux, and For payment Stripe Payment Gateway.',
+      'Flutter expert and experienced programmer with an extensive history of designing and coding solutions. Skilled in Google’s Flutter/Dart App and React-Native/Node Web development on a global scale.',
   },
   {
     id: 3,
     icon: faLaptopHouse,
     name: 'Full Stack Web App',
     details:
-      'Using MERN Stack I usually make Full Stack Web Application and For Authentication Firebase.',
+      'I have developed multiple solutions for Websites, Mobile applications, Cross-platform mobile applications. So, if you are looking for a dependable team member who can deliver on time with quality code, let\'s connect!',
   },
 ];
 

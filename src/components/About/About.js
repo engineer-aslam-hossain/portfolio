@@ -14,11 +14,7 @@ const About = () => {
           >
             <h3>About Myself</h3>
             <p>
-              I'm a Javascript Enthusiast. Love to working in Javascript
-              Ecosystem speacially React, Next Js, React Native. I'm a
-              technology explorer and learner. I love to learn new technology
-              and explore it. Becoming a Full-Stack software engineer is my
-              goal. I'm a simply simple person with lots of interests.
+              Within 3+ years of experience, I have worked with Enterprise level clients and Startups across multiple domains. I have extensive experience in both front-end and back-end development across the following technical stacks. I have developed multiple solutions for Websites, Mobile applications, Cross-platform mobile applications. I'm skilled on HTML, CSS, Javascript, Bootstrap, Flutter, React, React-Native, NextJs, VueJs,MongoDB, Node.
             </p>
             <div className="d-flex aboutBtn">
               <div className="totalInfo pt-3 mr-3">
@@ -47,7 +43,7 @@ const About = () => {
             data-aos-duration="700"
             data-aos-delay="300"
           >
-            <p>Javascript 85%</p>
+            <p>Flutter 85%</p>
             <ProgressBar now={85} />
             <p>React 75%</p>
             <ProgressBar animated now={75} />

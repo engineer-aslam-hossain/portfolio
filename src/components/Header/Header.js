@@ -63,7 +63,7 @@ const Header = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={200}
                 duration={1000}
               >
                 Home

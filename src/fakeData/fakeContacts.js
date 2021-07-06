@@ -16,7 +16,7 @@ const fakeContacts = [
     id: 2,
     icon: faPhoneAlt,
     name: 'Phone',
-    address: '(+880)130-387-4241',
+    address: '(+880)178-349-0941',
   },
   {
     id: 3,
