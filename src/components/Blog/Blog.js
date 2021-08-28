@@ -23,7 +23,7 @@ const Blog = () => {
           <a
             className="allArticle"
             href="https://aslamhossain-dev.medium.com/"
-            target="_blank"
+            target="blank"
           >
             All My Article
           </a>

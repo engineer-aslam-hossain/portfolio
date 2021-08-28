@@ -24,7 +24,7 @@ const Project = () => {
           <a
             className="allArticle"
             href="https://www.fiverr.com/dev_aslam"
-            target="_blank"
+            target="blank"
           >
             All My Project
           </a>

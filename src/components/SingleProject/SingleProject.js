@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./SingleProject.css";
 import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
 const SingleProject = ({ project }) => {
-  const { id, name, img, git, live, url, details, client } = project;
+  const { id, name, img, git, live, url, details } = project;
 
   const windowWidth = window.innerWidth;
 
@@ -38,7 +38,7 @@ const SingleProject = ({ project }) => {
           <a href={url} target="blank">
             <FontAwesomeIcon icon={live} />
           </a>
-          <a href="#">
+          <a href="/">
             <FontAwesomeIcon icon={git} />
           </a>
         </div>

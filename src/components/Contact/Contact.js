@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import fakeContacts from "../../fakeData/fakeContacts";
 import "./Contact.css";
@@ -9,7 +9,6 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
   const windowSize = window.innerWidth;
-  const [successMessage, SetSuccessMessage] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,7 +21,6 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           if (result) {
             Swal.fire({
               position: "center",
@@ -81,11 +79,7 @@ const Contact = () => {
         >
           <h3 className="text-center">Have You Something to Say ?</h3>
           <p className="text-center">Feel free to message me</p>
-          {successMessage && (
-            <h4 className="text-center text-white">
-              Your message SuccessFully Send to Aslam
-            </h4>
-          )}
+
           <Form onSubmit={sendEmail}>
             <Form.Group controlId="formGroupName">
               <Form.Control

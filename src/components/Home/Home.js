@@ -1,24 +1,27 @@
-import React from 'react';
-import About from '../About/About';
-import Blog from '../Blog/Blog';
-import Contact from '../Contact/Contact';
-import Experience from '../Experience/Experience';
-import Header from '../Header/Header';
-import HeaderMain from '../HeaderMain/HeaderMain';
-import Project from '../Project/Project';
-import Service from '../Service/Service';
+import React, { Suspense, lazy } from "react";
+
+const About = lazy(() => import("../About/About"));
+const Blog = lazy(() => import("../Blog/Blog"));
+const Contact = lazy(() => import("../Contact/Contact"));
+const Experience = lazy(() => import("../Experience/Experience"));
+const Header = lazy(() => import("../Header/Header"));
+const HeaderMain = lazy(() => import("../HeaderMain/HeaderMain"));
+const Project = lazy(() => import("../Project/Project"));
+const Service = lazy(() => import("../Service/Service"));
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <HeaderMain />
-      <About />
-      <Project />
-      <Service />
-      <Experience />
-      <Blog />
-      <Contact />
+      <Suspense fallback={<div></div>}>
+        <Header />
+        <HeaderMain />
+        <About />
+        <Project />
+        <Service />
+        <Experience />
+        <Blog />
+        <Contact />
+      </Suspense>
     </div>
   );
 };

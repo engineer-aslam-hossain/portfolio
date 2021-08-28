@@ -14,7 +14,13 @@ const About = () => {
           >
             <h3>About Myself</h3>
             <p>
-              Within 3+ years of experience, I have worked with Enterprise level clients and Startups across multiple domains. I have extensive experience in both front-end and back-end development across the following technical stacks. I have developed multiple solutions for Websites, Mobile applications, Cross-platform mobile applications. I'm skilled on HTML, CSS, Javascript, Bootstrap, Flutter, React, React-Native, NextJs, VueJs,MongoDB, Node.
+              Within 3+ years of experience, I have worked with Enterprise level
+              clients and Startups across multiple domains. I have extensive
+              experience in both front-end and back-end development across the
+              following technical stacks. I have developed multiple solutions
+              for Websites, Mobile applications, Cross-platform mobile
+              applications. I'm skilled on HTML, CSS, Javascript, Bootstrap,
+              Flutter, React, React-Native, NextJs, VueJs,MongoDB, Node.
             </p>
             <div className="d-flex aboutBtn">
               <div className="totalInfo pt-3 mr-3">
@@ -30,7 +36,7 @@ const About = () => {
                 <a
                   className="allArticle"
                   href="https://www.fiverr.com/dev_aslam"
-                  target="_blank"
+                  target="blank"
                 >
                   Hire me
                 </a>
