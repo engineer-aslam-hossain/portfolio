@@ -15,6 +15,7 @@ import "./HeaderMain.css";
 import logo from "../../images/aslam.jpg";
 import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
 import Typical from "react-typical";
+import { Link } from "react-router-dom";
 
 const HeaderMain = () => {
   const windowSize = window.innerWidth;
@@ -56,7 +57,13 @@ const HeaderMain = () => {
               />
             </h5>
             <p>
-            My main area of expertise is the development of applications of varying complexity using JavaScript or Flutter. Being a Fullstack developer, I worked with a lot of different Backend or Frontend technologies. Plus, I possess a deep understanding of REST API technology.
+              I'm a Team leader of my current project{" "}
+              <a href="https://www.sunrise.ch/en/moments" target="blank">
+                Sunrise Moments
+              </a>{" "}
+              at Selise. Project is build on top of Next.js Framework. We're
+              working with SSO, Storyblok CMS, Swiper.js, REST Api, Caching and
+              also has CI/CD.
             </p>
             <div className="personalInfo">
               <p>

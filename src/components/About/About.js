@@ -19,8 +19,8 @@ const About = () => {
               experience in both front-end and back-end development across the
               following technical stacks. I have developed multiple solutions
               for Websites, Mobile applications, Cross-platform mobile
-              applications. I'm skilled on HTML, CSS, Javascript, Bootstrap,
-              Flutter, React, React-Native, NextJs, VueJs,MongoDB, Node.
+              applications. I'm skilled at React, NextJs, Flutter, MongoDB,
+              Express, Node.
             </p>
             <div className="d-flex aboutBtn">
               <div className="totalInfo pt-3 mr-3">
@@ -49,14 +49,14 @@ const About = () => {
             data-aos-duration="700"
             data-aos-delay="300"
           >
-            <p>Flutter 85%</p>
-            <ProgressBar now={85} />
-            <p>React 75%</p>
-            <ProgressBar animated now={75} />
-            <p>Next Js 80%</p>
+            <p>Next Js 85%</p>
+            <ProgressBar animated now={85} />
+            <p>React 80%</p>
             <ProgressBar animated now={80} />
             <p>Express 75%</p>
             <ProgressBar animated now={75} />
+            <p>Flutter 70%</p>
+            <ProgressBar now={70} />
             <p>MongoDB 70%</p>
             <ProgressBar animated now={70} />
           </div>

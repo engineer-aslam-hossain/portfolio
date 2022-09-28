@@ -49,11 +49,11 @@ const Experience = () => {
             >
               <p className="text-right mt-4 firstP">April 2021 to Present</p>
               <p className="text-right mt-4 secondP">
-                December 2020 to April 2021
+                October 2020 to April 2021
               </p>
-              <p className="text-right mt-4 thirdP">
+              {/* <p className="text-right mt-4 thirdP">
                 July 2020 to November 2020
-              </p>
+              </p> */}
             </div>
             <div className="line col"></div>
             <div
@@ -62,21 +62,28 @@ const Experience = () => {
               data-aos-duration="700"
               data-aos-delay="300"
             >
-               <div className="firstExp">
+              <div className="firstExp">
                 <h4>SELISE</h4>
-                <p>SELISE is a Swiss owned Software Engineering and Business Consulting company, Joined As a Software Engineer.</p>
+                <p>
+                  SELISE is a Swiss owned Software Engineering and Business
+                  Consulting company, Joined As a Software Engineer.
+                </p>
               </div>
               <div className="secondExp">
                 <h4>Quixx Project</h4>
-                <p>Country's First AI-Powered Last-Mile Delivery Management Software Solution. I Was Joined As a Front End Developer.</p>
-              </div>
-              <div className="thirdExp">
-                <h4>Training</h4>
                 <p>
-                  Complete Web Development With Jhankar Mahbub. I got more knowledge on HTML, CSS, JavaScript, ES6, bootstrap, React, charting, Node, Express, API, Mongodb
+                  Country's First AI-Powered Last-Mile Delivery Management
+                  Software Solution. I Was Joined As a Front End Developer.
                 </p>
               </div>
-             
+              {/* <div className="thirdExp">
+                <h4>Training</h4>
+                <p>
+                  Complete Web Development With Jhankar Mahbub. I got more
+                  knowledge on HTML, CSS, JavaScript, ES6, bootstrap, React,
+                  charting, Node, Express, API, Mongodb
+                </p>
+              </div> */}
             </div>
           </div>
           <div className="educationDetails  row">
@@ -100,22 +107,22 @@ const Experience = () => {
               <div className="firstExp">
                 <h4>Bsc In CSE</h4>
                 <p>
-                  Daffodil International University <br />
-                  I have completed my bachelor's in CSE from DIU.
+                  Daffodil International University <br />I have completed my
+                  bachelor's in CSE from DIU with CGPA of 3.78.
                 </p>
               </div>
               <div className="secondExp">
                 <h4>Diploma In CT</h4>
                 <p>
-                  Mymensingh Govt. Polytechnic <br />
-                  I got my college degree from this college.
+                  Mymensingh Govt. Polytechnic <br />I got my college degree
+                  from this college.
                 </p>
               </div>
               <div className="thirdExp">
                 <h4>SSC</h4>
                 <p>
-                  Barachowna High School <br />
-                  I finished my school level at this school.
+                  Barachowna High School <br />I finished my school level at
+                  this school.
                 </p>
               </div>
             </div>

@@ -16,10 +16,10 @@ const Home = () => {
         <Header />
         <HeaderMain />
         <About />
-        <Project />
-        <Service />
+        {/* <Project /> */}
+        {/* <Service /> */}
         <Experience />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
       </Suspense>
     </div>

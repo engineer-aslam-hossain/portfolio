@@ -63,7 +63,7 @@ const Header = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={200}
+                offset={-300}
                 duration={1000}
               >
                 Home
@@ -73,12 +73,12 @@ const Header = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={32}
+                offset={100}
                 duration={1000}
               >
                 About
               </Link>
-              <Link
+              {/* <Link
                 activeClass="active"
                 to="project"
                 spy={true}
@@ -97,7 +97,7 @@ const Header = () => {
                 duration={1000}
               >
                 Blog
-              </Link>
+              </Link> */}
               <Link
                 activeClass="active"
                 to="contact"
