@@ -25,7 +25,7 @@ const About = () => {
             <div className="d-flex aboutBtn">
               <div className="totalInfo pt-3 mr-3">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=17sRDN4hhP0RKmVPJNkCYHaS8kGhlMYoA"
+                  href="https://drive.google.com/uc?export=download&id=14QIMq1haAUBNFbp0LlnzVD-FzVmbg5fD"
                   target="blank"
                   className="allArticle"
                 >
