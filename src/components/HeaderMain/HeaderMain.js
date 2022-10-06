@@ -13,15 +13,14 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./HeaderMain.css";
 import logo from "../../images/aslam.jpg";
-import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
+// import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
 import Typical from "react-typical";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const HeaderMain = () => {
   const windowSize = window.innerWidth;
   return (
     <section className="header-main" id="home">
-      <ParticleCanvas />
       <div className="container headerMainContainer">
         <div className="row headerMainRow justify-content-around">
           <div

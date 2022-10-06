@@ -1,18 +1,20 @@
 import React, { Suspense, lazy } from "react";
+import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
 
 const About = lazy(() => import("../About/About"));
-const Blog = lazy(() => import("../Blog/Blog"));
+// const Blog = lazy(() => import("../Blog/Blog"));
 const Contact = lazy(() => import("../Contact/Contact"));
 const Experience = lazy(() => import("../Experience/Experience"));
 const Header = lazy(() => import("../Header/Header"));
 const HeaderMain = lazy(() => import("../HeaderMain/HeaderMain"));
-const Project = lazy(() => import("../Project/Project"));
-const Service = lazy(() => import("../Service/Service"));
+// const Project = lazy(() => import("../Project/Project"));
+// const Service = lazy(() => import("../Service/Service"));
 
 const Home = () => {
   return (
     <div>
       <Suspense fallback={<div></div>}>
+        <ParticleCanvas />
         <Header />
         <HeaderMain />
         <About />

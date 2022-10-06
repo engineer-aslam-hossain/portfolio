@@ -40,7 +40,7 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
-      <ParticleCanvas />
+      {/* <ParticleCanvas /> */}
       <div className="container">
         <div className="contactHead d-flex flex-column align-items-center mb-5">
           <h3>Contact</h3>

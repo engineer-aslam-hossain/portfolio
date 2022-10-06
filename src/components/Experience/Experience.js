@@ -1,5 +1,5 @@
 import React from "react";
-import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
+// import ParticleCanvas from "../ParticleCanvas/ParticleCanvas";
 import "./Experience.css";
 const Experience = () => {
   const educationHandler = () => {
@@ -26,7 +26,7 @@ const Experience = () => {
   const windowWidth = window.innerWidth;
   return (
     <section className="experience">
-      <ParticleCanvas />
+      {/* <ParticleCanvas /> */}
       <div className="container">
         <div className="row d-flex align-items-center flex-column">
           <div className="toggleButtons">
