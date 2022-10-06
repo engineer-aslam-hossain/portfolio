@@ -1,4 +1,4 @@
-## Live - [Aslam's Portfolio](https://engineer-aslam-hossain.github.io/)
+## Live - [Aslam's Portfolio](https://aslam-hossain.netlify.app/)
 
 Role : Front End Developer | Full Stack Developer | MERN stack Developer
 
