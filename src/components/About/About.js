@@ -19,13 +19,16 @@ const About = () => {
               experience in both front-end and back-end development across the
               following technical stacks. I have developed multiple solutions
               for Websites, Mobile applications, Cross-platform mobile
-              applications. I'm skilled at React, NextJs, Flutter, MongoDB,
-              Express, Node.
+              applications. I'm skilled at{" "}
+              <b>
+                React, NextJs, Flutter, MongoDB, Express, Node, Redux,
+                Bootstrap, SASS, Material UI, Tailwind.
+              </b>
             </p>
             <div className="d-flex aboutBtn">
               <div className="totalInfo pt-3 mr-3">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=189wkdj1P2HJkyq50uZpvTcOyPj8rZiKd"
+                  href="https://drive.google.com/uc?export=download&id=14QIMq1haAUBNFbp0LlnzVD-FzVmbg5fD"
                   target="blank"
                   className="allArticle"
                 >

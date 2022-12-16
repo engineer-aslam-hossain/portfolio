@@ -22,16 +22,30 @@ const Experience = () => {
       .querySelector(".experienceDetails")
       .style.setProperty("visibility", "visible");
   };
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 
   const windowWidth = window.innerWidth;
   return (
     <section className="experience">
       {/* <ParticleCanvas /> */}
       <div className="container">
-        <div className="row d-flex align-items-center flex-column">
+        <div className="row d-flex align-items-center flex-column position-relative">
           <div className="toggleButtons">
             <button
-              className="experienceBtn mr-3 active"
+              className="experienceBtn mr-3  active"
               onClick={experienceHandler}
             >
               My Experience
@@ -40,22 +54,22 @@ const Experience = () => {
               My Education
             </button>
           </div>
-          <div className="experienceDetails  row">
+          <div className="experienceDetails">
             <div
-              className="col py-5 years mr-5 px-0"
+              className="col py-5 years px-0"
               data-aos={windowWidth > 1000 ? "fade-right" : "fade-up"}
               data-aos-duration="700"
               data-aos-delay="300"
             >
               <p className="text-right mt-4 firstP">April 2021 to Present</p>
-              <p className="text-right mt-4 secondP">
+              <p className="text-right mt-4 secondExP">
                 October 2020 to April 2021
               </p>
               {/* <p className="text-right mt-4 thirdP">
                 July 2020 to November 2020
               </p> */}
             </div>
-            <div className="line col"></div>
+            <div className="line"></div>
             <div
               className="experienceInfo col py-5 detailsInfo"
               data-aos={windowWidth > 1000 ? "fade-left" : "fade-up"}
@@ -65,15 +79,33 @@ const Experience = () => {
               <div className="firstExp">
                 <h4>SELISE</h4>
                 <p>
-                  SELISE is a Swiss owned Software Engineering and Business
-                  Consulting company, Joined As a Software Engineer.
+                  Tech-lead of the current project.{" "}
+                  <a
+                    href="https://www.sunrise.ch/en/moments"
+                    style={{
+                      color: "white",
+                      textDecoration: "underline",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Sunrise Moments
+                  </a>{" "}
+                  is my current running project. It’s built on top of{" "}
+                  <b>Next.js</b> framework, using <b>SSO</b>, <b>Storyblok </b>
+                  as <b>CMS</b>, <b>Swiper.js</b>,<b> REST API</b>, <b>Redis</b>{" "}
+                  for caching data,
+                  <b>MongoDB</b> as database with <b>Docker</b> and{" "}
+                  <b>Kubernetes</b> <b>CI/CD</b>.
                 </p>
               </div>
               <div className="secondExp">
-                <h4>Quixx Project</h4>
+                <h4>CRANTECH</h4>
                 <p>
-                  Country's First AI-Powered Last-Mile Delivery Management
-                  Software Solution. I Was Joined As a Front End Developer.
+                  I develop 2 websites frontend part and a mobile application in
+                  react-native. One web-application was about real-estate
+                  another was an online medical services app. Mobile application
+                  was audio meeting applications.{" "}
+                  <b>(React, Next.js, Express, React-Native, MongoDB)</b>.
                 </p>
               </div>
               {/* <div className="thirdExp">
@@ -86,7 +118,7 @@ const Experience = () => {
               </div> */}
             </div>
           </div>
-          <div className="educationDetails  row">
+          <div className="educationDetails">
             <div
               className="col py-5 years mr-5 px-0"
               data-aos={windowWidth > 1000 ? "fade-right" : "fade-up"}
@@ -97,7 +129,7 @@ const Experience = () => {
               <p className="text-right mt-4 secondP">March 2013 to 2017</p>
               <p className="text-right mt-4 thirdP">2008 to 2012/13</p>
             </div>
-            <div className="line col"></div>
+            <div className="line"></div>
             <div
               className="experienceInfo col py-5 detailsInfo"
               data-aos={windowWidth > 1000 ? "fade-left" : "fade-up"}
@@ -111,7 +143,7 @@ const Experience = () => {
                   bachelor's in CSE from DIU with CGPA of 3.78.
                 </p>
               </div>
-              <div className="secondExp">
+              <div className="secondEdu">
                 <h4>Diploma In CT</h4>
                 <p>
                   Mymensingh Govt. Polytechnic <br />I got my college degree

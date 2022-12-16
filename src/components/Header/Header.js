@@ -109,7 +109,7 @@ const Header = () => {
                 Contact
               </Link>
               <a
-                href="https://drive.google.com/uc?export=download&id=189wkdj1P2HJkyq50uZpvTcOyPj8rZiKd"
+                href="https://drive.google.com/uc?export=download&id=14QIMq1haAUBNFbp0LlnzVD-FzVmbg5fD"
                 target="blank"
                 className="resume"
               >

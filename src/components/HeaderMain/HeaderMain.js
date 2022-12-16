@@ -44,11 +44,9 @@ const HeaderMain = () => {
               I'm a
               <Typical
                 steps={[
-                  " Flutter Developer",
+                  " Software Engineer",
                   1000,
                   " Full Stack Developer",
-                  1000,
-                  " MERN Stack Developer",
                   1000,
                 ]}
                 loop={Infinity}
@@ -56,13 +54,15 @@ const HeaderMain = () => {
               />
             </h5>
             <p>
-              I'm a Team leader of my current project{" "}
+              Tech-lead of the current project.{" "}
               <a href="https://www.sunrise.ch/en/moments" target="blank">
                 Sunrise Moments
               </a>{" "}
-              at Selise. Project is build on top of Next.js Framework. We're
-              working with SSO, Storyblok CMS, Swiper.js, REST Api, Caching and
-              also has CI/CD.
+              is my current running project. It’s built on top of <b>Next.js</b>{" "}
+              framework, using <b>SSO</b>, <b>Storyblok </b>as <b>CMS</b>,{" "}
+              <b>Swiper.js</b>,<b> REST API</b>, <b>Redis</b> for caching data,
+              <b>MongoDB</b> as database with <b>Docker</b> and{" "}
+              <b>Kubernetes</b> <b>CI/CD</b>.
             </p>
             <div className="personalInfo">
               <p>
