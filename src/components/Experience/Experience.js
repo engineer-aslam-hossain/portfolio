@@ -101,8 +101,8 @@ const Experience = () => {
               <div className="secondExp">
                 <h4>CRANTECH</h4>
                 <p>
-                  I develop 2 websites frontend part and a mobile application in
-                  react-native. One web-application was about real-estate
+                  I developed 2 websites frontend part and a mobile application
+                  in react-native. One web-application was about real-estate
                   another was an online medical services app. Mobile application
                   was audio meeting applications.{" "}
                   <b>(React, Next.js, Express, React-Native, MongoDB)</b>.

@@ -61,7 +61,7 @@ const HeaderMain = () => {
               is my current running project. It’s built on top of <b>Next.js</b>{" "}
               framework, using <b>SSO</b>, <b>Storyblok </b>as <b>CMS</b>,{" "}
               <b>Swiper.js</b>,<b> REST API</b>, <b>Redis</b> for caching data,
-              <b>MongoDB</b> as database with <b>Docker</b> and{" "}
+              <b> MongoDB</b> as database with <b>Docker</b> and{" "}
               <b>Kubernetes</b> <b>CI/CD</b>.
             </p>
             <div className="personalInfo">
